@@ -1,0 +1,118 @@
+{
+  "source": {
+    "canva_design_id": "DAHafwGwXgg",
+    "title": "Copy of luma event card",
+    "url": "https://www.canva.com/design/DAHafwGwXgg/58EH6S69-axVFE3vYW1z8A/edit",
+    "extracted_on": "2026-11-10",
+    "canvas_px": [480, 480],
+    "export_scale": 5,
+    "note": "All PNGs exported at 2400px page width (5x the 480px canvas). Layout coordinates below are in 480px canvas units: multiply by 5 for the PNG assets."
+  },
+  "assets": [
+    {
+      "file": "backgrounds/bg-dark-bar-texture.png",
+      "role": "background",
+      "canva_media_id": "MAHH5FfmCJQ",
+      "description": "Full 2400x2400 card background: #202020 fill with a blurred B&W bar photo on top at 22% opacity. Used on every page.",
+      "transparent": false
+    },
+    {
+      "file": "backgrounds/bg-source-bar-photo.png",
+      "role": "background-source",
+      "description": "Original washed-out B&W bar photo (2000x1841) that the background is made from. To rebuild bg-dark-bar-texture.png: fill #202020, place this image at 22% opacity, scaled up well past the canvas (Canva frame: top -661.99, left -1179.66, 2220.65x2043.79 on the 480px canvas) so only a blurred section shows.",
+      "transparent": false
+    },
+    {
+      "file": "templates/base-card-blank.png",
+      "role": "template",
+      "description": "Background + wordmark + squiggle in their standard positions, nothing else. Start compositing new cards from this.",
+      "transparent": false
+    },
+    {
+      "file": "brand/founders-on-tap-wordmark.png",
+      "role": "wordmark",
+      "description": "\"Founders on Tap\" serif wordmark, #f7f7f7, trimmed. Present on every page.",
+      "transparent": true,
+      "layout": { "top": 12.66, "left": 14.42, "width": 417.58 }
+    },
+    {
+      "file": "decor/squiggle-arrow-lime.png",
+      "role": "decoration",
+      "canva_media_id": "MAFL9cHs1-A",
+      "description": "Canva 'Thin Curled Arrow' element recoloured #000000 -> #e7f5a2 and flipped vertically. Exported unrotated; rotate ~15° clockwise when placing. Present on speaker/partner pages.",
+      "transparent": true,
+      "layout": { "top": 176.3, "left": 77.09, "width": 147.0, "height": 50.72, "rotation_deg": 15.34, "flipY": true }
+    },
+    {
+      "file": "photos/polaroid-happy-hour.png",
+      "role": "polaroid",
+      "canva_media_id": "MAHV4RHHZzQ",
+      "description": "Polaroid frame with tape and a happy-hour crowd photo baked in. Used on pages 5 and 6 (non-speaker / happy-hour cards).",
+      "transparent": true,
+      "layout": { "top": 18.71, "left": 196.95, "width": 320.17, "height": 400.07 }
+    },
+    {
+      "file": "logos/y-combinator.png",
+      "role": "credential-logo",
+      "canva_media_id": "MAHYlTVhT0E",
+      "description": "Y Combinator logo, sits inline in the role line (\"2X [YC] CEO\").",
+      "transparent": true,
+      "layout": { "top": 365.24, "left": 37.9, "width": 96.77, "height": 27.58 }
+    },
+    {
+      "file": "logos/partner-every.png",
+      "role": "partner-logo",
+      "canva_media_id": "MAHUrougA_U",
+      "description": "Every logo (white), used below the \"In partnership with\" label on the partner card.",
+      "transparent": true,
+      "layout": { "top": 383.74, "left": 11.89, "width": 161.51, "height": 76.68 }
+    }
+  ],
+  "speaker_polaroids_not_extracted": {
+    "note": "Each speaker card uses a one-off image with the speaker photo already inside the polaroid frame, so they are not reusable components.",
+    "canva_media_ids": {
+      "daniel_ahmadizadeh": "MAHYlUma1S8",
+      "jianna_liu": "MAHV4Wm01Bk",
+      "rob_snyder": "MAHW7y-1EGg",
+      "trevor_keith": "MAHXgIchz6s"
+    }
+  },
+  "colors": {
+    "background": "#202020",
+    "text_primary": "#f7f7f7",
+    "text_white": "#ffffff",
+    "accent_lime_text": "#f4ffbc",
+    "accent_lime_squiggle": "#e7f5a2",
+    "polaroid_caption": "#000000"
+  },
+  "fonts": {
+    "note": "Canva font refs; the families aren't exposed by the API, so match them in Canva by fontRef.",
+    "wordmark": { "fontRef": "YAHV2gXXPj0,0", "size": 53.86, "lineHeight": 0.85, "letterSpacing": -0.048 },
+    "speaker_name": { "fontRef": "YAHV2kKlPQs,0", "size": "37.5-46.8", "lineHeight": 0.94, "letterSpacing": -0.048 },
+    "tagline_handwritten": { "fontRef": "YACgEZHPKsk,0", "size": 15.92, "lineHeight": 0.94, "letterSpacing": 0.095 },
+    "city_and_polaroid_caption": { "fontRef": "YAFdJvSyp_k,3", "weight": "medium / semibold italic" },
+    "small_labels": { "fontRef": "YAEnS2G4JLg,0", "size": "9.3-12", "letterSpacing": 0.095 }
+  },
+  "text_slots": {
+    "note": "Variable text per card, with positions on the 480px canvas. Two layout variants exist: large city (pages 1-2) and compact city (pages 3-5).",
+    "tagline": { "top": 133.77, "left": 18.95, "width": 207.81, "font": "tagline_handwritten", "color": "#ffffff", "example": "Find your first customer" },
+    "city": {
+      "large": { "top": 285.84, "left": 14.42, "size": 72.47 },
+      "compact": { "top": 318.52, "left": 18.95, "size": 42.24 },
+      "color": "#f7f7f7",
+      "example": "SF"
+    },
+    "polaroid_caption": { "top": 328.9, "left": 108.36, "width": 467.15, "rotation_deg": 5.84, "font": "city_and_polaroid_caption", "style": "semibold italic", "color": "#000000", "example": "Start with one", "note": "Sits on the white bottom strip of the polaroid." },
+    "role_line": { "top": 371.18, "left": 18.95, "font": "small_labels", "size": 10.67, "color": "#f7f7f7 or #f4ffbc", "example": "FOUNDER · PMF ADVISOR" },
+    "speaker_name": { "top": 387.65, "left": 18.95, "width": 352.34, "font": "speaker_name", "color": "#f7f7f7", "example": "Rob Snyder" },
+    "credential_line": { "top": 443.77, "left": 18.95, "font": "small_labels", "size": 9.33, "color": "#f4ffbc", "example": "Author of The Power of PULL" }
+  },
+  "page_variants": [
+    { "page": 1, "type": "speaker + inline logo", "speaker": "Daniel Ahmadizadeh" },
+    { "page": 2, "type": "speaker + inline logo", "speaker": "Jianna Liu" },
+    { "page": 3, "type": "speaker (compact)", "speaker": "Rob Snyder" },
+    { "page": 4, "type": "speaker (compact)", "speaker": "Trevor Keith" },
+    { "page": 5, "type": "partner", "partner": "Every" },
+    { "page": 6, "type": "photo only", "note": "Background + centred happy-hour polaroid + caption, no wordmark" }
+  ]
+}
