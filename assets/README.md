@@ -12,6 +12,8 @@ These are the reusable pieces of the Founders on Tap Luma event card ([Canva sou
 | `photos/` | `polaroid-happy-hour.png` | Taped polaroid with a happy-hour photo, for non-speaker cards |
 | `logos/` | `y-combinator.png`, `partner-every.png` | Credential and partner logos |
 
+`luma_photo/` holds the six finished cards from the source design (four speaker cards, the Every partner card and the photo-only happy-hour card), exported at 2400px. Use them as reference examples when checking generated cards.
+
 `manifest.json` has the details the automation needs:
 
 - the Canva media ID for each asset, so it can be reused inside Canva
