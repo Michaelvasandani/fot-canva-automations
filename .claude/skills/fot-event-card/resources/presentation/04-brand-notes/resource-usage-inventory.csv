@@ -1,0 +1,20 @@
+Canva asset/type,Observed description,Uses,Pages,Reusable filename,Dimensions,Notes
+MAHH5FfmCJQ,background-bar-photo,6,"1,2,3,4,5,6",background-bar-photo-pdf-extracted.png,530x800,Full source photo; darkened/cropped in the design
+MAHWg6lPibs,event-photo-workshop-audience,1,2,event-photo-workshop-audience-pdf-extracted.png,640x427,
+MAHWeJrNBbo,event-card-fundraising-female-founder,1,2,event-card-fundraising-female-founder-pdf-extracted.png,310x480,
+MAHWeD5r-xo,event-card-startup-content,1,2,event-card-startup-content-pdf-extracted.png,362x560,
+MAHWeLb7GuM,event-card-prompt-like-designer,1,2,event-card-prompt-like-designer-pdf-extracted.png,310x480,
+MAHWg2NFbt8,event-photo-founder-panel,1,2,event-photo-founder-panel-pdf-extracted.png,640x480,
+MAHWg56AAHs,event-photo-bar-selfie,1,2,event-photo-bar-selfie-pdf-extracted.png,640x480,
+MAHWdJcjSZQ,founders-lyvia-selina-polaroid,1,3,founders-lyvia-selina-polaroid-pdf-extracted.png,657x800,
+MAHVDpDxb00,folio-clips-website-screenshot,1,3,folio-clips-website-screenshot-pdf-extracted.png,600x800,
+MAHVDjV9xpc,bubble-lab-website-screenshot,1,3,bubble-lab-website-screenshot-pdf-extracted.png,720x456,
+MAHWdZ5mjcg,group-photo-polaroid-base,2,"4,6",group-photo-polaroid-base-pdf-extracted.png,800x781,On slide 6 the photo region is covered by a different group photo
+MAHI1KN8KFM,bar-interior-black-and-white,1,4,bar-interior-black-and-white-pdf-extracted.png,800x532,
+MAHV2oGQ-xU,polaroid-base-with-original-portrait,1,5,polaroid-base-with-original-portrait-pdf-extracted.png,640x800,Underlying female portrait is covered by Trevor photo in composed slide; frame/tape are baked in
+MAHUN7K7Ths,trevor-keith-portrait,1,5,trevor-keith-portrait-pdf-extracted.png,400x400,
+MAHQTx_D-yU,community-group-photo,1,6,community-group-photo-pdf-extracted.png,800x533,
+MADhb1gcgjA,handdrawn-arrow-white,1,6,handdrawn-arrow-white-pdf-extracted.png,761x800,"Handdrawn Arrow, Canva resource name"
+MAHYgpaoH-I,qr-agents-workshop-image,1,6,qr-agents-workshop-image-pdf-extracted.png,425x480,Image includes AI agents to scale your startup label; destination not visited or verified
+generated-vector,instagram QR code,1,6,qr-instagram-rendered.png,approximately 785x785,Rendered from PDF vector code; destination not visited or verified
+generated-vector,membership QR code,1,6,qr-membership-rendered.png,approximately 785x785,Rendered from PDF vector code; destination not visited or verified

@@ -1,0 +1,53 @@
+{
+  "template_design_id": "DAHafwGwXgg",
+  "page_size": [480, 480],
+  "layouts": {
+    "speaker-badge": {
+      "source_page": 1,
+      "description": "Speaker card with an inline badge row: '2X' + Y Combinator logo + role (e.g. CEO).",
+      "slots": {
+        "hook":         { "id": "LBTYpn7RV4dwBHMG", "kind": "text", "max_chars": 26, "notes": "handwritten line under the title; use \\n to break into 2 lines" },
+        "city":         { "id": "LB8g1qnLPsqPJSyn", "kind": "text", "max_chars": 3 },
+        "polaroid":     { "id": "LB93nFZjqxQq1pcC", "kind": "image", "box": [326.5771559715647, 403.80482964026555] },
+        "caption":      { "id": "LBXqpb679CNs84KZ", "kind": "text", "max_chars": 18, "notes": "sits on the polaroid's white strip" },
+        "badge_prefix": { "id": "LBsBhFZxcSxHHkjJ", "kind": "text", "notes": "e.g. '2X '; delete with badge_logo if not a repeat YC founder" },
+        "badge_logo":   { "id": "LBtmpksFSpsrmcL5", "kind": "image", "notes": "Y Combinator wordmark" },
+        "badge_suffix": { "id": "LBR0HRLDXxKSnkjj", "kind": "text", "notes": "role, e.g. CEO / FOUNDER" },
+        "name":         { "id": "LBpJZqHZTqYlyvDk", "kind": "text", "max_chars": 20, "link": true, "notes": "has a stray trailing newline region; replace_text the whole element" },
+        "credential":   { "id": "LBcDYNgKpzPJTvQj", "kind": "text", "max_chars": 40, "two_tone": ["Instructor at ", "Columbia & Stanford\n"], "notes": "first region white, second region accent #f4ffbc; edit each with find_and_replace_text" }
+      }
+    },
+    "speaker": {
+      "source_page": 3,
+      "description": "Speaker card with a plain uppercase eyebrow line above the name.",
+      "slots": {
+        "hook":       { "id": "LB2tXwB2m3sWQYnk", "kind": "text", "max_chars": 26 },
+        "city":       { "id": "LBYNpLJMb6dLwmPj", "kind": "text", "max_chars": 3 },
+        "polaroid":   { "id": "LBHXT09FJJcChMcW", "kind": "image", "box": [338.3638665171858, 422.8040471097099] },
+        "caption":    { "id": "LB7jFc8XgzxVkRWw", "kind": "text", "max_chars": 18 },
+        "eyebrow":    { "id": "LBXrN8LfQzB0VcxM", "kind": "text", "max_chars": 34, "notes": "UPPERCASE, e.g. 'FOUNDER · PMF ADVISOR'" },
+        "name":       { "id": "LBgYhMy97tPgwry0", "kind": "text", "max_chars": 16, "link": true },
+        "credential": { "id": "LBNfy4xVCQ1n6v3Y", "kind": "text", "max_chars": 45, "notes": "accent #f4ffbc" }
+      }
+    },
+    "partner": {
+      "source_page": 5,
+      "description": "Partner / sponsor card: event photo + 'In partnership with' + partner logo.",
+      "slots": {
+        "hook":          { "id": "LBN2V5rSvlLNp5JZ", "kind": "text", "max_chars": 60 },
+        "polaroid":      { "id": "LBmZ9qdlyGDGtZ9f", "kind": "image", "box": [320.17048822448913, 400.0704318099232] },
+        "caption":       { "id": "LBBTvRwscRgw3M4j", "kind": "text", "max_chars": 18 },
+        "partner_label": { "id": "LBjR76YFzHyR85jr", "kind": "text" },
+        "partner_logo":  { "id": "LBQCs6GVd22w08P7", "kind": "image", "box": [161.51309470255296, 76.68098327934291], "notes": "white logo on transparent background works best" }
+      }
+    },
+    "photo": {
+      "source_page": 6,
+      "description": "Photo-only card: centered polaroid + caption, no title.",
+      "slots": {
+        "polaroid": { "id": "LBKQZ0xjHF26DRCK", "kind": "image", "box": [320.17048822448913, 400.0704318099232] },
+        "caption":  { "id": "LB68pgg6w30whwpm", "kind": "text", "max_chars": 18 }
+      }
+    }
+  }
+}
