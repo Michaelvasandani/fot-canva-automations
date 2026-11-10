@@ -4,7 +4,10 @@
     "title": "Copy of luma event card",
     "url": "https://www.canva.com/design/DAHafwGwXgg/58EH6S69-axVFE3vYW1z8A/edit",
     "extracted_on": "2026-11-10",
-    "canvas_px": [480, 480],
+    "canvas_px": [
+      480,
+      480
+    ],
     "export_scale": 5,
     "note": "All PNGs exported at 2400px page width (5x the 480px canvas). Layout coordinates below are in 480px canvas units: multiply by 5 for the PNG assets."
   },
@@ -33,7 +36,11 @@
       "role": "wordmark",
       "description": "\"Founders on Tap\" serif wordmark, #f7f7f7, trimmed. Present on every page.",
       "transparent": true,
-      "layout": { "top": 12.66, "left": 14.42, "width": 417.58 }
+      "layout": {
+        "top": 12.66,
+        "left": 14.42,
+        "width": 417.58
+      }
     },
     {
       "file": "decor/squiggle-arrow-lime.png",
@@ -41,7 +48,14 @@
       "canva_media_id": "MAFL9cHs1-A",
       "description": "Canva 'Thin Curled Arrow' element recoloured #000000 -> #e7f5a2 and flipped vertically. Exported unrotated; rotate ~15° clockwise when placing. Present on speaker/partner pages.",
       "transparent": true,
-      "layout": { "top": 176.3, "left": 77.09, "width": 147.0, "height": 50.72, "rotation_deg": 15.34, "flipY": true }
+      "layout": {
+        "top": 176.3,
+        "left": 77.09,
+        "width": 147.0,
+        "height": 50.72,
+        "rotation_deg": 15.34,
+        "flipY": true
+      }
     },
     {
       "file": "photos/polaroid-happy-hour.png",
@@ -49,7 +63,12 @@
       "canva_media_id": "MAHV4RHHZzQ",
       "description": "Polaroid frame with tape and a happy-hour crowd photo baked in. Used on pages 5 and 6 (non-speaker / happy-hour cards).",
       "transparent": true,
-      "layout": { "top": 18.71, "left": 196.95, "width": 320.17, "height": 400.07 }
+      "layout": {
+        "top": 18.71,
+        "left": 196.95,
+        "width": 320.17,
+        "height": 400.07
+      }
     },
     {
       "file": "logos/y-combinator.png",
@@ -57,7 +76,12 @@
       "canva_media_id": "MAHYlTVhT0E",
       "description": "Y Combinator logo, sits inline in the role line (\"2X [YC] CEO\").",
       "transparent": true,
-      "layout": { "top": 365.24, "left": 37.9, "width": 96.77, "height": 27.58 }
+      "layout": {
+        "top": 365.24,
+        "left": 37.9,
+        "width": 96.77,
+        "height": 27.58
+      }
     },
     {
       "file": "logos/partner-every.png",
@@ -65,7 +89,12 @@
       "canva_media_id": "MAHUrougA_U",
       "description": "Every logo (white), used below the \"In partnership with\" label on the partner card.",
       "transparent": true,
-      "layout": { "top": 383.74, "left": 11.89, "width": 161.51, "height": 76.68 }
+      "layout": {
+        "top": 383.74,
+        "left": 11.89,
+        "width": 161.51,
+        "height": 76.68
+      }
     }
   ],
   "speaker_polaroids_not_extracted": {
@@ -87,32 +116,232 @@
   },
   "fonts": {
     "note": "Canva font refs; the families aren't exposed by the API, so match them in Canva by fontRef.",
-    "wordmark": { "fontRef": "YAHV2gXXPj0,0", "size": 53.86, "lineHeight": 0.85, "letterSpacing": -0.048 },
-    "speaker_name": { "fontRef": "YAHV2kKlPQs,0", "size": "37.5-46.8", "lineHeight": 0.94, "letterSpacing": -0.048 },
-    "tagline_handwritten": { "fontRef": "YACgEZHPKsk,0", "size": 15.92, "lineHeight": 0.94, "letterSpacing": 0.095 },
-    "city_and_polaroid_caption": { "fontRef": "YAFdJvSyp_k,3", "weight": "medium / semibold italic" },
-    "small_labels": { "fontRef": "YAEnS2G4JLg,0", "size": "9.3-12", "letterSpacing": 0.095 }
+    "wordmark": {
+      "fontRef": "YAHV2gXXPj0,0",
+      "size": 53.86,
+      "lineHeight": 0.85,
+      "letterSpacing": -0.048
+    },
+    "speaker_name": {
+      "fontRef": "YAHV2kKlPQs,0",
+      "size": "37.5-46.8",
+      "lineHeight": 0.94,
+      "letterSpacing": -0.048
+    },
+    "tagline_handwritten": {
+      "fontRef": "YACgEZHPKsk,0",
+      "size": 15.92,
+      "lineHeight": 0.94,
+      "letterSpacing": 0.095
+    },
+    "city_and_polaroid_caption": {
+      "fontRef": "YAFdJvSyp_k,3",
+      "weight": "medium / semibold italic"
+    },
+    "small_labels": {
+      "fontRef": "YAEnS2G4JLg,0",
+      "size": "9.3-12",
+      "letterSpacing": 0.095
+    }
   },
   "text_slots": {
     "note": "Variable text per card, with positions on the 480px canvas. Two layout variants exist: large city (pages 1-2) and compact city (pages 3-5).",
-    "tagline": { "top": 133.77, "left": 18.95, "width": 207.81, "font": "tagline_handwritten", "color": "#ffffff", "example": "Find your first customer" },
+    "tagline": {
+      "top": 133.77,
+      "left": 18.95,
+      "width": 207.81,
+      "font": "tagline_handwritten",
+      "color": "#ffffff",
+      "example": "Find your first customer"
+    },
     "city": {
-      "large": { "top": 285.84, "left": 14.42, "size": 72.47 },
-      "compact": { "top": 318.52, "left": 18.95, "size": 42.24 },
+      "large": {
+        "top": 285.84,
+        "left": 14.42,
+        "size": 72.47
+      },
+      "compact": {
+        "top": 318.52,
+        "left": 18.95,
+        "size": 42.24
+      },
       "color": "#f7f7f7",
       "example": "SF"
     },
-    "polaroid_caption": { "top": 328.9, "left": 108.36, "width": 467.15, "rotation_deg": 5.84, "font": "city_and_polaroid_caption", "style": "semibold italic", "color": "#000000", "example": "Start with one", "note": "Sits on the white bottom strip of the polaroid." },
-    "role_line": { "top": 371.18, "left": 18.95, "font": "small_labels", "size": 10.67, "color": "#f7f7f7 or #f4ffbc", "example": "FOUNDER · PMF ADVISOR" },
-    "speaker_name": { "top": 387.65, "left": 18.95, "width": 352.34, "font": "speaker_name", "color": "#f7f7f7", "example": "Rob Snyder" },
-    "credential_line": { "top": 443.77, "left": 18.95, "font": "small_labels", "size": 9.33, "color": "#f4ffbc", "example": "Author of The Power of PULL" }
+    "polaroid_caption": {
+      "top": 328.9,
+      "left": 108.36,
+      "width": 467.15,
+      "rotation_deg": 5.84,
+      "font": "city_and_polaroid_caption",
+      "style": "semibold italic",
+      "color": "#000000",
+      "example": "Start with one",
+      "note": "Sits on the white bottom strip of the polaroid."
+    },
+    "role_line": {
+      "top": 371.18,
+      "left": 18.95,
+      "font": "small_labels",
+      "size": 10.67,
+      "color": "#f7f7f7 or #f4ffbc",
+      "example": "FOUNDER · PMF ADVISOR"
+    },
+    "speaker_name": {
+      "top": 387.65,
+      "left": 18.95,
+      "width": 352.34,
+      "font": "speaker_name",
+      "color": "#f7f7f7",
+      "example": "Rob Snyder"
+    },
+    "credential_line": {
+      "top": 443.77,
+      "left": 18.95,
+      "font": "small_labels",
+      "size": 9.33,
+      "color": "#f4ffbc",
+      "example": "Author of The Power of PULL"
+    }
   },
   "page_variants": [
-    { "page": 1, "type": "speaker + inline logo", "speaker": "Daniel Ahmadizadeh" },
-    { "page": 2, "type": "speaker + inline logo", "speaker": "Jianna Liu" },
-    { "page": 3, "type": "speaker (compact)", "speaker": "Rob Snyder" },
-    { "page": 4, "type": "speaker (compact)", "speaker": "Trevor Keith" },
-    { "page": 5, "type": "partner", "partner": "Every" },
-    { "page": 6, "type": "photo only", "note": "Background + centred happy-hour polaroid + caption, no wordmark" }
-  ]
+    {
+      "page": 1,
+      "type": "speaker + inline logo",
+      "speaker": "Daniel Ahmadizadeh"
+    },
+    {
+      "page": 2,
+      "type": "speaker + inline logo",
+      "speaker": "Jianna Liu"
+    },
+    {
+      "page": 3,
+      "type": "speaker (compact)",
+      "speaker": "Rob Snyder"
+    },
+    {
+      "page": 4,
+      "type": "speaker (compact)",
+      "speaker": "Trevor Keith"
+    },
+    {
+      "page": 5,
+      "type": "partner",
+      "partner": "Every"
+    },
+    {
+      "page": 6,
+      "type": "photo only",
+      "note": "Background + centred happy-hour polaroid + caption, no wordmark"
+    }
+  ],
+  "masters": {
+    "note": "Master Pages for making new Event Cards (see docs/adr/0001). Always copy a page with copy-design and edit the copy; never edit these pages to make a card. Element IDs are the trailing part of the locator (locator = <page_id>-<element_id>). Positions are on the 480px canvas.",
+    "canva_design_id": "DAHagB2GnGY",
+    "edit_url": "https://www.canva.com/d/dJxrPBmtcuVK8ot",
+    "pages": {
+      "speaker_logo": {
+        "page_number": 1,
+        "page_id": "PBM0P0pnB84T5q0M",
+        "description": "Speaker Card, large City, Credential Logo inline in the Role Line (Daniel's layout).",
+        "elements": {
+          "speaker_photo": {
+            "id": "LBNPwCj65g8fRy7c",
+            "note": "Photo layer over the polaroid window: left 246.8, top 79.6, 233.5x234, rotation 4.8. Swap with update_fill."
+          },
+          "polaroid_frame": {
+            "id": "LB93nFZjqxQq1pcC",
+            "note": "Daniel's baked polaroid, used only as the frame under the photo layer."
+          },
+          "tagline": {
+            "id": "LBTYpn7RV4dwBHMG"
+          },
+          "city": {
+            "id": "LB8g1qnLPsqPJSyn"
+          },
+          "polaroid_caption": {
+            "id": "LBXqpb679CNs84KZ"
+          },
+          "role_prefix": {
+            "id": "LBsBhFZxcSxHHkjJ",
+            "example": "2X "
+          },
+          "credential_logo": {
+            "id": "LBtmpksFSpsrmcL5",
+            "note": "YC logo, MAHYlTVhT0E"
+          },
+          "role_suffix": {
+            "id": "LBR0HRLDXxKSnkjj",
+            "example": "CEO"
+          },
+          "speaker_name": {
+            "id": "LBpJZqHZTqYlyvDk",
+            "note": "Has a stray trailing newline region with a wrong link; replace the whole text."
+          },
+          "credential_line": {
+            "id": "LBcDYNgKpzPJTvQj",
+            "note": "Two regions: white lead-in + lime highlight."
+          }
+        }
+      },
+      "speaker_compact": {
+        "page_number": 2,
+        "page_id": "PBXgh4Bvl0dtlK0C",
+        "description": "Speaker Card, compact City, text-only Role Line (Rob's layout).",
+        "elements": {
+          "speaker_photo": {
+            "id": "LBnz4LMRKFr4jm2S",
+            "note": "Photo layer over the polaroid window: left 259.8, top 72.7, 210x262, rotation 4.8. Swap with update_fill."
+          },
+          "polaroid_frame": {
+            "id": "LBHXT09FJJcChMcW",
+            "note": "Rob's baked polaroid, used only as the frame under the photo layer."
+          },
+          "tagline": {
+            "id": "LB2tXwB2m3sWQYnk"
+          },
+          "city": {
+            "id": "LBYNpLJMb6dLwmPj"
+          },
+          "polaroid_caption": {
+            "id": "LB7jFc8XgzxVkRWw"
+          },
+          "role_line": {
+            "id": "LBXrN8LfQzB0VcxM"
+          },
+          "speaker_name": {
+            "id": "LBgYhMy97tPgwry0"
+          },
+          "credential_line": {
+            "id": "LBNfy4xVCQ1n6v3Y"
+          }
+        }
+      },
+      "partner": {
+        "page_number": 3,
+        "page_id": "PBrz7G4rgqPQn2H2",
+        "description": "Partner Card (Every layout).",
+        "elements": {
+          "polaroid": {
+            "id": "LBmZ9qdlyGDGtZ9f",
+            "note": "Happy-hour polaroid, MAHV4RHHZzQ"
+          },
+          "tagline": {
+            "id": "LBN2V5rSvlLNp5JZ"
+          },
+          "polaroid_caption": {
+            "id": "LBBTvRwscRgw3M4j"
+          },
+          "partnership_label": {
+            "id": "LBjR76YFzHyR85jr"
+          },
+          "partner_logo": {
+            "id": "LBQCs6GVd22w08P7",
+            "note": "Every logo, MAHUrougA_U"
+          }
+        }
+      }
+    }
+  }
 }
